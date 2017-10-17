@@ -1,0 +1,66 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Register</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h3> </h3>
+
+  <p> </p>
+
+
+
+
+<ion-list>
+  <ion-item>
+    <ion-label color="primary">Name</ion-label>
+    <ion-input placeholder="enter your name"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label color="primary" fixed>Email</ion-label>
+    <ion-input type="email" placeholder="enter your Email"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label color="primary" stacked>Password</ion-label>
+    <ion-input type="password" placeholder="Password Input"></ion-input>
+  </ion-item>
+
+
+ <ion-item>
+    <ion-label color="primary" stacked>confirmation Password</ion-label>
+    <ion-input type="password" placeholder="Password Input"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label color="primary" fixed>phone</ion-label>
+    <ion-input type="tel" placeholder=""></ion-input>
+  </ion-item>
+
+
+</ion-list>
+
+<ion-list radio-group [(ngModel)]="autoManufacturers">
+
+  <ion-item>
+    <ion-label>I'm a Librarian</ion-label>
+    <ion-radio value="cord"></ion-radio>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>I'm a User</ion-label>
+    <ion-radio value="duesenberg"></ion-radio>
+  </ion-item>
+
+
+
+</ion-list>
+
+
+  <button ion-button >Register</button>
+</ion-content>
